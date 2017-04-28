@@ -9,9 +9,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Darko Fabijan"]
   spec.email         = ["darko@renderedtext.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = "Ruby HTTP client for the Heroku API."
+  spec.description   = "Ruby HTTP client for the Heroku API."
+  spec.homepage      = "https://github.com/renderedtext/semaphoreci_api"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
   # delete this section to allow pushing this gem to any host.
@@ -29,4 +29,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.10"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec"
+  spec.add_development_dependency "yard"
+
+  spec.add_dependency "heroics", "~> 0.0.21"
 end
