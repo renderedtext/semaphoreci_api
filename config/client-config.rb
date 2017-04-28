@@ -1,7 +1,7 @@
 require 'heroics'
 
 Heroics.default_configuration do |config|
-  config.base_url = 'https://semaphoreci.com'
+  config.base_url = 'https://semaphoreci.com/api/v2'
   config.module_name = 'SemaphoreciApi'
   config.schema_filepath = 'schema.json'
 
