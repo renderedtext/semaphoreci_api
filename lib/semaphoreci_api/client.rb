@@ -85,7 +85,7 @@ module SemaphoreciApi
     default_headers = {"Accept"=>"application/vnd.semaphoreci+json; version=1"}
     {
       default_headers: default_headers,
-      url:             "https://semaphoreci.com"
+      url:             "https://semaphoreci.com/api/v2"
     }
   end
 
