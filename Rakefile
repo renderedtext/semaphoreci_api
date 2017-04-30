@@ -8,6 +8,7 @@ desc 'Download the latest schema and build a new client'
 task :build do
   sh 'curl -o schema.json http://api-docs.semaphoreci.com/schema.json'
   sh 'bundle exec heroics-generate ./config/client-config.rb > lib/semaphoreci_api/client.rb'
+  sh 'rm schema.json'
 end
 
 desc 'Publish API documentation'
